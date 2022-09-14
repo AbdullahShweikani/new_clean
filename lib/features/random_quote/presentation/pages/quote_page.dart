@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:new_clear/config/routes/app_routes.dart';
 import 'package:new_clear/core/utils/constants.dart';
 
 class QuotePage extends StatelessWidget {
