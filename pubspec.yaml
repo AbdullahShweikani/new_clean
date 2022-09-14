@@ -35,7 +35,11 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.5
+  fluttertoast: ^8.0.9
+  flutter_bloc: ^8.1.1
+  get_it: ^7.2.0
+  dio: ^4.0.6
 
 dev_dependencies:
   flutter_test:
@@ -75,17 +79,23 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  fonts:
+     - family: Tajawal
+       fonts:
+         - asset: assets/fonts/Tajawal-Regular.ttf
+           weight: 400
+         - asset: assets/fonts/Tajawal-Black.ttf
+           weight: 900
+         - asset: assets/fonts/Tajawal-Bold.ttf
+           weight: 700
+         - asset: assets/fonts/Tajawal-ExtraBold.ttf
+           weight: 800
+         - asset: assets/fonts/Tajawal-ExtraLight.ttf
+           weight: 200
+         - asset: assets/fonts/Tajawal-Light.ttf
+           weight: 300
+         - asset: assets/fonts/Tajawal-Medium.ttf
+           weight: 500
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
